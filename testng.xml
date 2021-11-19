@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+
+    <listeners>
+        <listener class-name="main.java.com.fis.utils.SuiteListener" />
+
+    </listeners>
+
+    <test name="Test Basics 1">
+
+
+        <parameter name="browserName" value="chrome">
+
+        </parameter>
+
+
+
+        <classes>
+
+            <class name="test.java.com.fis.tests.HomePageTest">
+                        </class>
+
+        </classes>
+    </test> <!-- Test -->
+
+    </suite> <!-- Suite -->
